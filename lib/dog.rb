@@ -4,6 +4,7 @@ class Dog
     @breed = breed
     if intialize(name)
       @breed = "Mutt"
+    end
   end
   
 
