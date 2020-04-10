@@ -4,7 +4,8 @@ class Dog
     @breed = breed 
     
   end
-  
+  if initialize(name)
+    @breed = "Mutt"
 
   
   attr_accessor :name 
